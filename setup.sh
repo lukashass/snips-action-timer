@@ -7,7 +7,7 @@ then
   cp config.ini.default config.ini
 fi
 
-if [ -e "/etc/hermes-config.json" ]
+if [ -e "/etc/hermes-config.json" ] && [ ! -e "./hermes-config.json" ]
 then
   ln -s /etc/hermes-config.json hermes-config.json
 fi
