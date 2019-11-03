@@ -6,10 +6,10 @@
   "scripts": {
     "start": "npm run lint && npm run build && npm run test && npm run test:sandbox",
     "build": "snips-toolkit build",
-    "dev": "snips-toolkit dev",
+    "dev": "snips-toolkit dev -c hermes-config.json",
     "test": "snips-toolkit test '^.*\\.spec\\.[jt]s$'",
     "test:sandbox": "snips-toolkit test -s '^.*\\.spec\\.[jt]s$'",
-    "launch": "snips-toolkit run",
+    "launch": "snips-toolkit run -c hermes-config.json",
     "lint": "eslint \"**/*.[jt]s\""
   },
   "author": "Julien Elbaz",
@@ -21,7 +21,7 @@
     "@typescript-eslint/parser": "^1.4.0",
     "eslint": "^5.15.3",
     "eslint-plugin-jest": "^22.4.1",
-    "hermes-javascript": "^0.3.9",
+    "hermes-javascript": "^0.4.1",
     "typescript": "^3.3.4000",
     "snips-toolkit": "^1.0.0"
   },
@@ -33,6 +33,7 @@
   "sandbox": [
     "crypto",
     "fs",
+    "os",
     "path",
     "tty",
     "util"

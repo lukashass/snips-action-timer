@@ -1,5 +1,6 @@
 # Project
 config.ini
+hermes-config.json
 
 # Logs
 logs
@@ -91,4 +92,3 @@ typings/
 # Package manager
 pnpm-lock.yaml
 yarn.lock
-package-lock.json
