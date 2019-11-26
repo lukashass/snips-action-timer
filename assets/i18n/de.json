@@ -3,25 +3,25 @@
         "mqtt": "Entschuldigung, es gab einen Fehler bei der Kommunikation mit der Snips Platform.",
         "config": "Entschuldigung, es gab einen Fehler mit der Konfigurationsdatei.",
         "localisation": "Entschuldigung, es gab einen Fehler mit den Spracheinstellungen.",
-        "intentNotRecognized": "Entschuldigung, ich habe doch nicht verstanden.",
+        "intentNotRecognized": "Entschuldigung, ich habe dich nicht verstanden.",
         "unspecific": "Ups, da ist etwas schief gelaufen.",
         "timerNameExists": "Entschuldigung, es wurden leider bereits zehn Timer mit diesem Namen erstellt.",
         "durationTooLong": "Entschuldigung, die angegebene Dauer ist zu lang."
     },
     "defaultName": "Timer",
     "defaultTimerDescription": "ein {{ duration }} Timer",
-    "namedTimerDescription": "ein {{ duration }} Timer, genannt {{ name }}",
+    "namedTimerDescription": "ein {{ duration }} Timer, für {{ name }}",
     "noTimers": "Es sieht so aus als hättest du gerade keine aktiven Timer. Möchtest du einen erstellen?",
     "notFound": "Entschuldigung, ich habe keinen Timer mit diesem Namen gefunden.",
     "setTimer": {
         "ask": "Was für einen Timer möchtest du erstellen und für wie lang?",
         "created": "Okay, stelle einen Timer für {{ duration }}.",
-        "created_name": "Okay, starte Timer {{ name }} für {{ duration }}.",
+        "created_name": "Okay, starte {{ name }} Timer für {{ duration }}.",
         "askDuration": "Wie lange soll der Timer laufen?"
     },
     "getRemainingTime": {
         "found": "Der Timer läuft noch {{ duration }}.",
-        "found_name": "Der Timer {{ name }} hat noch {{ duration }} übrig.",
+        "found_name": "Der {{ name }} Timer hat noch {{ duration }} übrig.",
         "singleTimer": "Ich habe einen Timer gefunden, der noch {{ duration }} läuft.",
         "singleTimer_name": "Ich habe einen Timer mit dem Namen {{ name }} gefunden, der noch {{ duration }} läuft.",
         "multipleTimers": "Ich habe {{ count }} Timer gefunden. {{- timersRecap }}.",
@@ -30,28 +30,28 @@
     },
     "cancelTimer": {
         "canceled": "Klar, ich breche den Timer ab.",
-        "canceled_name": "Klar, der Timer {{ name }} wird abgebrochen.",
+        "canceled_name": "Klar, der {{ name }} Timer wird abgebrochen.",
         "canceled_all": "Klar, alle Timer sind abgebrochen.",
         "singleTimer": "Ich habe einen Timer gefunden, möchtest du ihn abbrechen?",
         "multipleTimers": "Ich habe {{ count }} Timer gefunden. {{- timerNamesAnd }}. Welchen soll ich abbrechen?"
     },
     "pauseTimer": {
         "paused": "Okay, der Timer ist jetzt pausiert.",
-        "paused_name": "Okay, der Timer {{ name }} wird pausiert.",
+        "paused_name": "Okay, der {{ name }} Timer wird pausiert.",
         "paused_all": "Klar, alle Timer sind jetzt pausiert.",
         "singleTimer": "Ich habe einen Timer gefunden, möchtest du ihn pausieren?",
         "multipleTimers": "Ich habe {{ count }} Timer gefunden. {{- timerNamesAnd }}. Welchen möchtest du pausieren?"
     },
     "resumeTimer": {
         "resumed": "Okay, der Timer wird jetzt fortgesetzt.",
-        "resumed_name": "Okay, der Timer {{ name }} wird fortgesetzt.",
+        "resumed_name": "Okay, der {{ name }} Timer wird fortgesetzt.",
         "resumed_all": "Klar, alle Timer werden fortgesetzt.",
         "singleTimer": "Ich habe einen Timer gefunden, möchtest du ihn fortsetzen?",
         "multipleTimers": "Ich habe {{ count }} Timer gefunden. {{- timerNamesAnd }}. Welchen möchtest du fortsetzen?"
     },
     "timerIsUp": {
         "announce": "Dein Timer ist fertig.",
-        "announce_name": "Dein Timer {{ name }} ist fertig.",
+        "announce_name": "Dein {{ name }} Timer ist fertig.",
         "addTime": "Okay, ich verlängere den Timer um {{ time }}.",
         "addTime_name": "Okay, ich verlängere den {{ name }} Timer um {{ time }}."
     },
